@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 100vh;
+}
+.banner {
+    background: url('background.png');
+    background-size: cover;
+}
+.banner i{
+    z-index: 3;
+    font-size: 400px;
+    color:#fff;
+}
+.rejoins{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.infos{
+    margin-left: 15px;
+}
+.infos .fa-twitter{
+    color: #1d9bf0;
+    font-size: 60px;
+    margin-bottom: 85px;
+    margin-top: 40px;
+}
+.infos h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.btn{
+    width: 300px;
+    border: 1px solid rgb(102, 102, 102);
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn i{
+    margin-right:10px;
+    font-size: 16px;
+}
+.infos .condition p{
+    font-size: 13px;
+}
+.condition span{
+    font-size: 15px;
+}
+.condition a{
+    text-decoration: none;
+}
+.blue{
+    color: #1d9bf0;
+}
+@media(max-width:1001px){
+    .container-fluid .row{
+        flex-direction: column-reverse;
+    }
+}
